@@ -201,13 +201,16 @@ native_tests := \
     wificond_unit_test \
     ziparchive-tests \
     GraphicBuffer_test \
-    NeuralNetworksTest_mt_static \
     NeuralNetworksTest_operations \
-    NeuralNetworksTest_static \
     NeuralNetworksTest_utils \
     SurfaceFlinger_test \
     lmkd_unit_test \
     vrflinger_test
+
+    # TODO: uncomment below if float16 supported for riscv64
+    #NeuralNetworksTest_mt_static \
+    #NeuralNetworksTest_static \
+
 
 ifeq ($(BOARD_IS_AUTOMOTIVE), true)
 native_tests += libwatchdog_test

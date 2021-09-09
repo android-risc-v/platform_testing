@@ -30,7 +30,6 @@ instrumentation_metric_tests := \
     MediaProviderClientTests \
     MultiUserPerfDummyApp \
     MultiUserPerfTests \
-    NeuralNetworksApiBenchmark \
     PackageManagerPerfTests \
     QueriesAll0 \
     QueriesAll1 \
@@ -89,6 +88,8 @@ instrumentation_metric_tests := \
     trace_config_multi_user.textproto \
     perfetto_trace_processor_shell
 
+    #TODO: uncomment when float16 support in riscv64 
+    #NeuralNetworksApiBenchmark \
     # TODO(b/72332760): Uncomment when fixed
     #DocumentsUIPerfTests
 
