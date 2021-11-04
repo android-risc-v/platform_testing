@@ -25,8 +25,6 @@ instrumentation_metric_tests := \
     ContentCapturePerfTests \
     DocumentsUIAppPerfTests \
     MtpServicePerfTests \
-    RsBlasBenchmark \
-    ImageProcessingJB \
     MediaProviderClientTests \
     MultiUserPerfDummyApp \
     MultiUserPerfTests \
