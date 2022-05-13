@@ -27,7 +27,6 @@ platform_tests += \
     CellBroadcastReceiverTests \
     ConnectivityManagerTest \
     ContactsTests \
-    CtsCameraTestCases \
     CtsHardwareTestCases \
     DataIdleTest \
     Development \
